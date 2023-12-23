@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  cypress_compose:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    volumes:
+      - "C:/Users/memo_/OneDrive/Documentos/CypressAdvReports/dockerReports:/app/allure-results"

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.126" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-02-11T00:25:48" tests="0" file="cypress\e2e\2-advanced-examples\storage.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Local Storage / Session Storage" timestamp="2023-02-11T00:25:48" tests="5" time="4.084" failures="0">
+    <testcase name="Local Storage / Session Storage cy.clearLocalStorage() - clear all data in localStorage for the current origin" time="0.882" classname="cy.clearLocalStorage() - clear all data in localStorage for the current origin">
+    </testcase>
+    <testcase name="Local Storage / Session Storage cy.getAllLocalStorage() - get all data in localStorage for all origins" time="0.296" classname="cy.getAllLocalStorage() - get all data in localStorage for all origins">
+    </testcase>
+    <testcase name="Local Storage / Session Storage cy.clearAllLocalStorage() - clear all data in localStorage for all origins" time="0.295" classname="cy.clearAllLocalStorage() - clear all data in localStorage for all origins">
+    </testcase>
+    <testcase name="Local Storage / Session Storage cy.getAllSessionStorage() - get all data in sessionStorage for all origins" time="0.305" classname="cy.getAllSessionStorage() - get all data in sessionStorage for all origins">
+    </testcase>
+    <testcase name="Local Storage / Session Storage cy.clearAllSessionStorage() - clear all data in sessionStorage for all origins" time="0.291" classname="cy.clearAllSessionStorage() - clear all data in sessionStorage for all origins">
+    </testcase>
+  </testsuite>
+</testsuites>
